@@ -1,0 +1,23 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+$title: red;
+
+$paragraph: black;
+
+$button: blue;
+
+h1 {
+  color: $title;
+}
+
+p {
+  color: $paragraph;
+}
+
+button {
+  color: $button;
+}
