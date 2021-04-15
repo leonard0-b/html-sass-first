@@ -2,16 +2,39 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+}
+
+body {
+  width: 100vw;
+  height: 100vh;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: #00b09b;
+  /* fallback for old browsers */
+  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #96c93d, #00b09b);
+  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.flex {
+  display: flex;
 }
 
 h1 {
-  color: red;
+  color: #009688;
 }
 
 p {
-  color: black;
+  color: #0f3443;
+  margin: 10px 0;
 }
 
 button {
-  color: blue;
+  color: #80cbc4;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  padding: 10px 15px;
 }
